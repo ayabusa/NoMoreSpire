@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nomorespire",
+  "version": "${version}",
+  "name": "NoMoreSpire",
+  "description": "A simple mod that block all message containing spire from the server OriginRealms",
+  "authors": ["Ayabusa"],
+  "contact": {
+    "repo": "https://github.com/ayabusa/NoMoreSpire"
+  },
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.ayabusa.nomorespire.client.NoMoreSpireClient"
+    ],
+    "main": [
+      "dev.ayabusa.nomorespire.NoMoreSpire"
+    ]
+  },
+  "mixins": [
+    "nomorespire.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
