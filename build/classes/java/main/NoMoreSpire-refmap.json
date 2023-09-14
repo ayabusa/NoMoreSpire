@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "dev/ayabusa/nomorespire/mixin/MessageMixin": {
+      "onGameMessage": "Lnet/minecraft/class_7594;method_44736(Lnet/minecraft/class_2561;Z)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/ayabusa/nomorespire/mixin/MessageMixin": {
+        "onGameMessage": "Lnet/minecraft/class_7594;method_44736(Lnet/minecraft/class_2561;Z)V"
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "nomorespire",
-  "version": "1.0-SNAPSHOT",
+  "version": "1.1",
   "name": "NoMoreSpire",
   "description": "A simple mod that block all message containing spire from the server OriginRealms",
   "authors": ["Ayabusa"],
@@ -25,6 +25,6 @@
   "depends": {
     "fabricloader": ">=0.14.22",
     "fabric": "*",
-    "minecraft": "1.20.1"
+    "minecraft": "1.19.2"
   }
 }

@@ -1,0 +1,2 @@
+v1	named	intermediary
+FIELD	dev/ayabusa/nomorespire/mixin/MessageMixin	Lnet/minecraft/client/MinecraftClient;	client	field_39779
